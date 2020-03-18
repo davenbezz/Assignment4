@@ -1,0 +1,23 @@
+body{
+    font-family: comic sans ms;
+}
+header{
+    background-color: #eee;
+    text-align: center;
+    padding: 10px;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+}
+#container{
+    display: flex;
+    flex-flow: wrap;
+    text-align: center;
+}
+div{
+    flex: 1 200px;
+    padding: 10px;
+    background-color: #eee;
+    margin: 10px;
+}
