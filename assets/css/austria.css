@@ -1,0 +1,17 @@
+a{
+    font-size: 25px;
+    text-decoration: none;
+    color: blue;
+    position: absolute;
+}
+body{
+	background-color:rgba(39, 39, 39, 0.68); /* Background color of Body */
+	font-size:10px;
+}
+.austria{
+  width:60em;
+  height:10em;
+  background-color:#ed2939;
+  box-shadow:0em 10em 0em 0em white,0em 20em 0em 0em #ed2939;
+}
+

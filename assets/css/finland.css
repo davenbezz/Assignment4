@@ -1,0 +1,34 @@
+a{
+    font-size: 25px;
+    text-decoration: none;
+    color: blue;
+    position: absolute;
+}
+body{
+	background-color:rgba(39, 39, 39, 0.68); /* Background color of Body */
+	font-size:2px;
+}
+.finland{
+  width:180em;
+  height:110em;
+  background-color:#003580;
+  left:50px;
+  position:relative;
+}
+.finland::after{
+  position:absolute;
+  width:50em;
+  height:40em;
+  background-color:white;
+  content:"";
+  box-shadow:0em 70em 0em 0em white;
+}
+.finland::before{
+  content:"";
+  position:absolute;
+  right:0em;
+  width:100em;
+  height:40em;
+  background-color:white;
+  box-shadow:0em 70em 0em 0em white;
+}

@@ -1,0 +1,36 @@
+a{
+    font-size: 25px;
+    text-decoration: none;
+    color: blue;
+    position: absolute;
+}
+.header{
+  font-size: 25px;
+}
+body{
+	background-color:rgba(39, 39, 39, 0.68); /* Background color of Body */
+	font-size:1.5px;
+}
+.france{
+  width:300em;
+  height:200em;
+  left:50px;
+  position:relative;
+  background-color:#002395;
+}
+.france::after{
+  width:99em;
+  content:"";
+  position:absolute;
+  height:200em;
+  background-color:white;
+  left:90em;
+}
+.france::before{
+  content:"";
+  width:111em;
+  right:0em;
+  position:absolute;
+  height:200em;
+  background-color:#ED2939;
+} 
