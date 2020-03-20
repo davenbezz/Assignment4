@@ -12,7 +12,8 @@
     </header>
     <div id="the_body">
         <p>
-            <h2>What is the difference between EM and Rm?</h2>
+            <h2>What is the difference between EM and REM?</h2>
+            <img src="./assets/images/confused.jpg" alt="Confused?">
             <h3>
                 An equitable motgage is creating a charge on the property by handing over the titledeeds of the property by its owner to the lender and orally confirming of handing over the title deeds for the intent to create a charge on the property for the amount borrowed.
 
@@ -26,23 +27,84 @@
                 CSS units could be a subject of several articles.
                 <b>What are rem units?</b>
                 REM stands for "root em", they can help us to do achieve a harmonious and balanced design.
-                According to the <a href="http://www.w3.org/TR/2013/CR-css3-values-20130730/#font-relative-lengths">W3C spec</a>
+                According to the <a id="css3colors" href="http://www.w3.org/TR/2013/CR-css3-values-20130730/#font-relative-lengths">W3C spec</a>
                  the definition for one rem unit is:
                 Equal to the computed value of font-size on the root element. When specified on the font-size property of the root element, the rem units refer to the property’s initial value.
                 <p>
-                    Both em and rem are flexible, scannable units.
+                    Both em and rem are flexible, scannable units but main point to consider is:
                 </p>
+                <ul>
+                    <li>rem is always relative to root element(html).</li>
+                    <li>em is always relative to the parent element.</li>
+                </ul>
 
+            </h3>
+            <p><h2>How browsers interpret</h2></p>
+            <h3>
+                A web browser is a piece of software that loads files from a remote server (or perhaps a local disk) and displays them to you — allowing for user interaction.
+                However, within a browser, there’s a piece of software that figures out what to display to you based on the files it receives. This is called the browser engine.
+                The browser engine is a core software component of every major browser, and different browser manufacturers call their engines by different names. The browser engine for Firefox is called Gecko, and Chrome’s is called Blink, which happens to be a fork of WebKit.
+                Browsers have a default pixel size of 16. So whatever comes above or below is interpreted according to this default pixel size.
+            </h3>
+            <h2>The Specific changes in CSS3</h2>
+            <h3>
+                <p><li>Selectors</li></p>
+                
+                    Selectors are at the heart of CSS. Originally, CSS allowed the matching of elements by type, class, and/or ID. CSS2.1 added pseudo-elements, pseudo-classes, and combinators. 
+                    With CSS3, we can target almost any element on the page with a wide range of selectors.
+                    CSS2 introduced several attribute selectors.
+                    These allow for matching elements based on their attributes. 
+                    CSS3 expands upon those attribute selectors.Three more attribute selectors were added in CSS3; 
+                    they allow for substring selection.
+                <p><li>CS3S Colors</li></p>
+                <img src="./assets/images/CSS3colors.jpg" alt="CSS3 Colors">
+                CSS3 brings with it support for some new ways of describing colours . Prior to CSS3, we almost always declared colours using the hexadecimal format (#FFF, or #FFFFFF for white). It was also possible to declare colours using the rgb() notation, providing either integers (0–255) or percentages.
+                The color keyword list has been extended in the CSS3 color module to include 147 additional keyword colors (that are generally well supported), CSS3 also provides us with a number of other options: HSL, HSLA, and RGBA. The most notable change with these new color types is the ability to declare semitransparent colors.
+                <p></p>
+                1. RGBA :
+                RGBA works just like RGB, except that it adds a fourth value: alpha, the opacity level or alpha transparency level. The first three values still represent red, green, and blue. For the alpha value, 1 means fully opaque, 0 is fully transparent, and 0.5 is 50% opaque. You can use any number between 0 and 1 inclusively.
+                <p></p>
+                2. HSL and HSLA
+                HSL stands for hue, saturation, and lightness. Unlike RGB, where you need to manipulate the saturation or brightness of a color by changing all three color values in concert, with HSL you can tweak either just the saturation or the lightness while keeping the same base hue. 
+                <br> The syntax for HSL comprises an integer value for hue, and percentage values for saturation and lightness.
+                The hsl( ) declaration accepts three values:
+                — The hue in degrees from 0 to 359. Some examples are: 0 = red, 60 = yellow, 120= green, 180 = cyan, 240 = blue, and 300 = magenta.
+                — The saturation as a percentage with 100% being the norm. <br> Saturation of 100% will be the full hue, and saturation of 0 will give you a shade of gray — essentially causing the hue value to be ignored.
+                — A percentage for lightness with 50% being the norm. A lightness of 100% will be white, 50% will be the actual hue, and 0% will be black.
+                The a in hsla( ) here also functions the same way as in rgba( )
+                <p></p>
+                3.Opacity
+                In addition to specifying transparency with HSLA and RGBA colors (and soon, eight-digit hexadecimal values), CSS3 provides us with the opacity property. opacity sets the opaqueness of the element on which it’s declared, similar to alpha.
+
+                <p><li>CSS 3 Rounded Corners</li></p>
+                Rounded corner elements can spruce up a website, but creating a rounded corner requires a designer to write a lot of code. Adjusting the height, width and positioning of these elements is a never-ending chore because any change in content can break them.
+
+                CSS 3 addresses this problem by introducing the border-radius property, which gives you the same rounded-corner effect and you don't have to write all the code. Here are examples for displaying rounded corners in different places of a website.
+
+                <p><li>CSS3 Text Shadow</li></p>
+                The new text-shadow property allows you to add drop shadows to the text on a webpage. Prior to CSS 3, this would be done by either using an image or duplicating a text element and then positioning it. A similar property called box-shadow is also available in CSS 3.
+                <p><li>CSS 3 Box Shadow</li></p>
+                A box shadow allows you to create a drop shadow for an element. Usually this effect is achieved using a repeated image around the element. However, with the property box-shadow this can be achieved by writing a single line of CSS code.
+
+                After previously removing this property from the CSS 3 Backgrounds and Borders Module, the W3C added it back in the last working draft.
             </h3>
         </p>
     </div>
     <footer>
         <hr>
             <div>
-                <a href="http://www.t.me/dave987"><img src="./assets/images/telegram.png" alt="telegram" target="_blank"></a>
-                <a href="https://www.facebook.com/davenbezz" target="_blank"><img src="./assets/images/facebook.png" alt="facebook"></a>
-                <a href="https://www.linkedin.com/in/dawit-bezabih-b54309188/" target="_blank"><img src="./assets/images/linkedin.png" alt="linkedin"></a>
-                <a href="mailto:it.dawit.bezabih@gmail.com" target="_blank"><img src="./assets/images/email.png" alt="email"></a>
+                <div>
+                    <a href="http://www.t.me/dave987"><img src="./assets/images/telegram.png" alt="telegram" target="_blank"></a>
+                </div>
+                <div>
+                    <a href="https://www.facebook.com/davenbezz" target="_blank"><img src="./assets/images/facebook.png" alt="facebook"></a>
+                </div>
+                <div>
+                    <a href="https://www.linkedin.com/in/dawit-bezabih-b54309188/" target="_blank"><img src="./assets/images/linkedin.png" alt="linkedin"></a>
+                </div>
+                <div>
+                    <a href="mailto:it.dawit.bezabih@gmail.com" target="_blank"><img src="./assets/images/email.png" alt="email"></a>
+                </div>
             </div>
         <hr>
         <div>

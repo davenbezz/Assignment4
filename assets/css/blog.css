@@ -14,11 +14,33 @@ footer > div:nth-of-type(1){
   display: flex;
   width: 200px;
 }
-footer > div > a{
-  flex: 1 100px;
+footer > div > div{
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 50%;
+  flex: 1 200px;
 }
 footer > div:nth-of-type(2){
   background-color: #eee;
   padding: 10px;
   margin: 10px;
+}
+#the_body > img{
+  width: 50rem;
+  height: 30rem;
+}
+#css3colors{
+  width: 40rm;
+  height: 25rm;
+}
+h2{
+  font-size: 1.6rem;
+  font-family: comic sans ms;
+}
+h3{
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+li{
+  color: red;
 }
