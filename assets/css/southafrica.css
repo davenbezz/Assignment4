@@ -1,0 +1,77 @@
+a{
+    font-size: 25px;
+    text-decoration: none;
+}
+body{
+	background-color:rgb(39, 39, 39); /* Background color of Body */
+	font-size:1px;
+}
+.sa{
+  top:40em; 
+  left:50em; 
+  width:300em;
+  height:200em;
+  position:relative;
+  background-color:#de3831;
+  overflow:hidden;
+}
+.sa::after{
+  width:100em;
+  height:100em;
+  content:"";
+  position:absolute;
+  background-color:black;
+  top:50em;
+  transform:rotate(125deg) skew(0deg,20deg);
+  left:-50em; 
+  box-shadow:0em 0em 0em 60em #007a4d;
+}
+.sa::before{
+  content:"";
+  position:absolute;
+  width:300em;
+  height:60em;
+  right:0em;
+  top:140em;
+  background-color:#002395;
+  box-shadow:10em -70em 0em -2em #007a4d,10em -70em 0em 10em white;
+}  
+.topbar{
+  position:relative;
+  background-color:#ffb612;
+  width:125em;
+  height:12em;
+  top:-35em;
+  left:27em;
+  transform:rotate(-35deg);
+  box-shadow:21em 61em 0em 0em white;
+}
+.botbar{
+   position:relative;
+  background-color:#ffb612;
+  width:125em;
+  height:12em;
+  top:-114em;
+  left:28em;
+  transform:rotate(35deg);
+  box-shadow:34em -63em 0em 0em white;
+}
+.topbar_hide{
+  width:300em;
+  height:20em;
+  background-color:rgb(39, 39, 39);
+  z-index:10;
+  position:relative;
+  top:14em;
+  box-shadow:0em -218em 0em 0em rgb(39, 39, 39);
+}
+.botbar_hide{
+  position:relative;
+  z-index:10;
+  background-color:rgb(39, 39, 39);
+  width:20em;
+  height:200em;
+  top:-220em;
+  left:30em;
+  
+}

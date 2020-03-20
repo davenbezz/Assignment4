@@ -1,0 +1,30 @@
+a{
+    font-size: 25px;
+    text-decoration: none;
+    color: blue;
+    position: absolute;
+}
+h1{
+  font-size: 25px;
+  color: #eee;
+}
+body{
+	background-color:rgba(39, 39, 39, 0.68); /* Background color of Body */
+	font-size:1.5px;   
+} 
+.japan{
+  width:300em;
+  height:200em;
+  position:relative;
+  background-color:white;
+}
+.japan::after{
+  position:absolute;
+  content:"";
+  width:120em;
+  height:120em;
+  border-radius:80%;
+  background-color:#bc002d;
+  top:40em;
+  left:90em;
+}

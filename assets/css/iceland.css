@@ -1,0 +1,35 @@
+a{
+    font-size: 25px;
+    text-decoration: none;
+    color: blue;
+}
+body{
+	background-color:rgba(39, 39, 39, 0.68); /* Background color of Body */
+	font-size:1.5px;
+}
+.iceland{
+  width:250em;
+  height:180em;
+  background-color:#003897;
+  position:relative;
+  left:50px;
+  overflow:hidden;
+}
+.iceland::after{
+  width:10em;
+  height:10em;
+  position:absolute;
+  left:70em;
+  background-color:white;
+  content:"";
+  box-shadow:0em 10em 0em 0em white,0em 20em 0em 0em white,0em 30em 0em 0em white,0em 40em 0em 0em white,0em 50em 0em 0em white,0em 60em 0em 0em white,0em 70em 0em 0em white,-10em 70em 0em 0em white,-20em 70em 0em 0em white,-30em 70em 0em 0em white,-40em 70em 0em 0em white,-50em 70em 0em 0em white,-60em 70em 0em 0em white,-70em 70em 0em 0em white,0em 100em 0em 0em white,-10em 100em 0em 0em white,-20em 100em 0em 0em white,-30em 100em 0em 0em white,-40em 100em 0em 0em white,-50em 100em 0em 0em white,-60em 100em 0em 0em white,-70em 100em 0em 0em white,0em 110em 0em 0em white,0em 120em 0em 0em white,0em 130em 0em 0em white,0em 140em 0em 0em white,0em 150em 0em 0em white,0em 160em 0em 0em white,0em 170em 0em 0em white,30em 110em 0em 0em white,30em 120em 0em 0em white,30em 130em 0em 0em white,30em 140em 0em 0em white,30em 150em 0em 0em white,30em 160em 0em 0em white,30em 170em 0em 0em white,30em 10em 0em 0em white,30em 20em 0em 0em white,30em 30em 0em 0em white,30em 40em 0em 0em white,30em 50em 0em 0em white,30em 60em 0em 0em white,30em 70em 0em 0em white,30em 0em 0em 0em white,30em 100em 0em 0em white,40em 100em 0em 0em white,50em 100em 0em 0em white,60em 100em 0em 0em white,70em 100em 0em 0em white,80em 100em 0em 0em white,90em 100em 0em 0em white,100em 100em 0em 0em white,110em 100em 0em 0em white,120em 100em 0em 0em white,130em 100em 0em 0em white,140em 100em 0em 0em white,150em 100em 0em 0em white,160em 100em 0em 0em white,170em 100em 0em 0em white,40em 70em 0em 0em white,50em 70em 0em 0em white,60em 70em 0em 0em white,70em 70em 0em 0em white,80em 70em 0em 0em white,90em 70em 0em 0em white,100em 70em 0em 0em white,110em 70em 0em 0em white,120em 70em 0em 0em white,130em 70em 0em 0em white,140em 70em 0em 0em white,150em 70em 0em 0em white,160em 70em 0em 0em white,170em 70em 0em 0em white;
+}
+.iceland:before{
+  content:"";
+  position:absolute;
+  width:20em;
+  height:20em;
+  background:#d72828;
+  left:80em;
+  box-shadow:0em 20em 0em 0em #d72828,0em 40em 0em 0em #d72828,0em 60em 0em 0em #d72828,0em 80em 0em 0em #d72828,0em 100em 0em 0em #d72828,0em 120em 0em 0em #d72828,0em 140em 0em 0em #d72828,0em 160em 0em 0em #d72828,20em 80em 0em 0em #d72828,40em 80em 0em 0em #d72828,60em 80em 0em 0em #d72828,80em 80em 0em 0em #d72828,100em 80em 0em 0em #d72828,120em 80em 0em 0em #d72828,140em 80em 0em 0em #d72828,160em 80em 0em 0em #d72828,-20em 80em 0em 0em #d72828,-40em 80em 0em 0em #d72828,-60em 80em 0em 0em #d72828,-80em 80em 0em 0em #d72828;
+}
